@@ -1,0 +1,719 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+#orang{
+    padding: 0px 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: #f9c265;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#orangfeature{
+    color: #f9c265;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#skills{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+     padding: 0px 10px;
+    border: 2px solid black;
+    border-radius: 35px;
+    color: #f9c265;
+    background-color: black;
+
+
+}
+header{
+   background-color: #f9c265;
+   width: 100%;
+   padding: 50px;
+   
+}
+
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    
+    
+    background-color: #f9c265;
+    padding: 30px;
+    
+
+}
+ nav .leftnav ul{
+   
+
+}
+ nav .leftnav ul li{
+     display: inline;
+
+}
+ nav .leftnav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+ nav .centernav h4{
+    font-size: medium;
+
+}
+ nav .rightnav a{
+    text-decoration: none;
+    padding: 6px 20px;
+    color: black;
+
+    
+
+}
+
+
+ nav .rightnav a#signup{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+header .allheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .leftheader{
+    
+}
+header .leftheader h1{
+   font-size: 60px;
+   font-weight: 400;
+    
+}
+header .rightheader{
+    padding: 20px;
+    
+}
+header .rightheader p{
+    font-size: small;
+    color: rgb(61, 61, 61);
+
+    
+}
+header .rightheader a{
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black;
+    font-size: small;
+    font-weight: 700;
+    
+}
+header .rightheader a:hover{
+    background-color: black;
+    color: #f9c265;
+    
+}
+
+#ul{
+    
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+
+#spancourse{
+      padding: 0px 10px;
+    border: 2px solid #f9c265;
+    border-radius: 30px;
+    color: #f9c265;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+main{
+
+}
+main .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 20px;
+}
+main .info h1{
+    font-weight: 400;
+
+}
+main .info .block h1{
+    color: #f9c265;
+}
+main .info p{
+    font-size: 10px;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-weight: 400;
+
+
+}
+main .sec1{
+    position: relative;
+}
+main .sec1 h1{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    font-size: 50px;
+   font-weight: 400;
+    
+}
+main .sec1 p{
+    position: absolute;
+    top: 400px;
+    right: 109px;
+    color: rgb(107, 105, 105);
+    font-weight: 400;
+   
+}
+main .sec2{
+    background-color:#fcfbf9 ;
+    position: relative;
+}
+main .upper{
+    display: flex;
+    justify-content: last baseline;
+    position: relative;
+    left: 68px;
+
+}
+main .sec2 .features{
+    background-color: black;
+    width: 55%;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 50px;
+    
+    
+    
+    
+}
+main .sec2 .features h1{
+    color: white;
+    padding-bottom: 50px;
+    font-size: 45px;
+   font-weight: 400;
+    
+    
+}
+main .sec2 .features a{
+     border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: small;
+    font-weight: 700;
+    background-color: #f9c265;
+}
+main .sec2 .certificate{
+     width: 25%;
+    margin: 30px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 50px;
+   padding-top: 100px;
+    padding-left: 60px;
+    position: relative;
+
+}
+main .sec2 .certificate h3{
+    font-weight: 550;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+main .sec2 .certificate p{
+      color: rgb(107, 105, 105);
+    font-weight: 400;
+    font-size: small;
+
+    
+}
+main .bottom{
+    display: flex;
+    justify-content:center;
+}
+main .sec2 .instructor{
+     width: 25%;
+    margin: 30px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 50px;
+   padding-top: 100px;
+    padding-left: 60px;
+    position: relative;
+
+}
+main .sec2 .instructor h3{
+    font-weight: 550;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+main .sec2 .instructor p{
+      color: rgb(107, 105, 105);
+    font-weight: 400;
+    font-size: small;
+
+    
+}
+main .sec2 .support{
+     width: 25%;
+    margin: 30px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 50px;
+   padding-top: 100px;
+    padding-left: 60px;
+    position: relative;
+
+}
+main .sec2 .support h3{
+    font-weight: 550;
+    padding-bottom: 20px;
+     padding-top: 40px;
+    
+}
+main .sec2 .support p{
+      color: rgb(107, 105, 105);
+    font-weight: 400;
+    font-size: small;
+
+    
+}
+main .sec2 .lesson{
+     width: 25%;
+    margin: 30px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 50px;
+   padding-top: 100px;
+    padding-left: 60px;
+    position: relative;
+
+}
+main .sec2 .lesson h3{
+    font-weight: 550;
+    padding-bottom: 20px;
+    padding-top: 40px;
+   
+
+    
+}
+main .sec2 .lesson p{
+      color: rgb(107, 105, 105);
+    font-weight: 400;
+    font-size: small; 
+
+    
+}
+main .sec2 img{
+    position: absolute;
+    top: 10px;
+    padding-bottom:10px ;
+}
+
+main .sec3 .courses{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    
+    
+}
+main .sec3 .courses h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+   font-weight: 400;
+    
+    
+    
+}
+main .sec3 .courses .allgrammer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+main .sec3 .courses .grammer{
+    background-color: #ffffff;
+    width: 200px;
+    height: 280px;
+    margin: 70px;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+main .sec3 .courses .grammer img{
+   
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
+
+}
+.sec3body{
+    display: flex;
+    font-size: 9px;
+    justify-content: center;
+    color: rgb(138, 135, 135);
+
+}
+.sec3bodyright{
+   position: relative;
+   top: 170px;
+   padding:10px 10px 0px 10px;
+
+}
+.sec3bodyleft{
+   position: relative;
+   top: 170px;
+   padding:10px 10px 0px 10px;
+
+
+}
+main .sec3 .courses .grammer h5{
+    position: relative;
+   top: 180px;
+   padding:3px 10px 10px 25px;
+   
+    
+}
+main .sec3 .courses .grammer a{
+    position: relative;
+   top: 180px;
+   left: 20px;
+   
+   text-decoration: none;
+   color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 5px 8px;
+    font-size: 12px;
+   
+    
+}
+main .sec3 .courses .grammer a:hover{
+    background-color: #f9c265;
+    
+
+}
+main .sec3 .courses .grammer #star{
+    color:gold;
+    font-size: 11px;
+}
+
+
+
+main .sec4{
+    position: relative;
+    height: 390px;
+    
+    
+}
+main .sec4 .sec4left img{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+main .sec4 .sec4right {
+
+   
+}
+main .sec4 .sec4right h1{
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 45px;
+   font-weight: 400;
+   
+}
+main .sec4 .sec4right p{
+     color: rgb(107, 105, 105);
+    font-weight: 400;
+    font-size: small;
+    padding: 50px; 
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
+}
+main .sec4 .sec4right ul{
+    padding: 5px 50px 50px 50px;
+    list-style: none;
+    
+    
+}
+main .sec4 .sec4right ul li{
+    margin: 10px;
+    
+    
+}
+main .sec4 .sec4right i{
+    color: #f9c265;
+    
+    
+}
+main .sec5_1{
+    display: flex;
+    justify-content: center;
+   position: relative;
+    top: 120px;
+    bottom: 0px;
+
+    
+    
+}
+main .sec5_2{
+     background-color: #f9c265;
+    width: 80%;
+    height: 321px;
+    border-radius: 30px;
+    position: relative;
+    
+    
+    
+}
+
+main .sec5_2 .allsec5{
+    display: flex;
+    justify-content: space-between;
+
+ 
+}
+main .sec5_2 .allsec5 img{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+
+}
+main .sec5_2 .allsec5 .sec5right{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    
+
+}
+main .sec5_2 .allsec5 .sec5right h3{
+    padding-bottom: 20px;
+    font-size: 32px;
+   font-weight: 400;
+
+}
+#ready{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+}
+main .sec5_2 .allsec5 .sec5right p{
+    font-size: 12px;
+
+    padding-bottom: 40px;
+}
+main .sec5_2 .allsec5 .sec5right a{
+
+     text-decoration: none;
+   color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding:10px 20px;
+    background-color: black;
+    color:#f9c265;
+    font-size: small;
+}
+main .sec5_2 .allsec5 .sec5right a:hover{
+
+     color: black;
+    background-color: #f9c265;
+}
+
+footer{
+    background-color: #fdf6e4;
+
+}
+footer .alltopfooter{
+    display: flex;
+    justify-content: center;
+    padding:200px 50px 80px 50px;
+    
+
+}
+footer h2{
+    padding: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+   font-weight: 400;
+    
+
+
+}
+footer .footerlinks{
+    padding-left: 80px;
+}
+footer .footerlinks a{
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+} 
+footer .footerlinks a span{
+    font-size: 12px;
+    padding-bottom: 10px;
+
+} 
+footer .footerlinks a svg{
+    padding-right: 2px;
+    padding-top: 8px;
+
+} 
+footer .footerright{
+
+}
+footer .allblackfooter{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+}
+footer .bottomfooter{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+footer .ulfooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+footer h4{
+    padding-bottom: 10px;
+
+}
+footer h3{
+    padding: 50px 50px 20px 50px;
+
+}
+footer .footerright p{
+    padding: 0px 50px 50px 50px;
+    color: rgb(153, 149, 149);
+    font-weight: 500;
+    font-size: small;
+}
+footer .footerleft1{
+    
+
+}
+footer .footerleft1 ul{
+    padding: 20px;
+
+}
+footer .footerleft1 ul li{
+
+    list-style: none;
+    padding: 7px;
+    color: rgb(153, 149, 149);
+    font-weight: 500;
+    font-size: small;
+
+
+
+}
+footer .footerleft2{
+    
+
+}
+
+footer .footerleft2 ul{
+    padding: 20px 90px;
+    
+
+}
+footer .footerleft2 ul li{
+    list-style: none;
+    padding: 7px;
+    color: rgb(153, 149, 149);
+    font-weight: 500;
+    font-size: small;
+
+}
+footer .footerleft3{
+    
+
+}
+footer .footerleft3 ul{
+    padding: 20px 20px 20px 0px;
+    
+
+}
+footer .footerleft3 ul li{
+    list-style: none;
+    padding: 7px;
+    
+    padding: 7px;
+    color: rgb(153, 149, 149);
+    font-weight: 500;
+    font-size: small;
+
+
+
+}
+footer .bottomblackfooter {
+
+    display: flex;
+    justify-content: space-between;
+    color: rgb(153, 149, 149);
+    font-size: small;
+    font-weight: 500;
+    
+}
+footer .bottomblackfooter #h5_1{
+
+    
+    position: absolute;
+    
+    bottom: 0px;
+    left: 110px;
+    padding-bottom: 10px;
+    
+
+}
+footer .bottomblackfooter #h5_2{
+
+    
+    position: absolute;
+    
+    bottom: 0px;
+    left: 1000px;
+    padding-bottom: 10px;
+    
+
+}
+
+
